@@ -46,6 +46,11 @@ jobs:
           npm install
           npm run build
 
+name: Node CI
+
+on: [push]
+
+
   test:
 
     runs-on: ubuntu-latest
